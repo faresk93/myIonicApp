@@ -1,0 +1,7 @@
+{
+  "name": "blank-ionic-project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
