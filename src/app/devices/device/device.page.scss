@@ -1,0 +1,23 @@
+
+.img-container {
+  position: relative;
+
+  ion-img {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+
+    &.hide-img {
+      opacity: 0;
+    }
+  }
+
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+}
+
